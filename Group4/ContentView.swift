@@ -14,10 +14,10 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
-        }
+        } // vstack
         .padding()
-    }
-}
+    } // body
+} // struct
 
 #Preview {
     ContentView()
