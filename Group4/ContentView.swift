@@ -26,9 +26,8 @@ struct ContentView: View {
                         Image("start")
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
-                            .position(x: 85, y: 420)
-                            .containerRelativeFrame(.horizontal) { size, axis in
-                                size * 0.4}
+                            .position(x: 80, y: 140)
+                            .frame(width: 150, height: 150)
                     }
                             .toolbar{
                                 ToolbarItemGroup(placement: .status){
