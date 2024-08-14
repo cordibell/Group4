@@ -45,6 +45,8 @@ struct ContentView: View {
                                     
                                 } // vstack
                             } // zstack
+            .navigationTitle("Home")
+            .navigationBarHidden(true)
                     } // nav stack
 
                 } // body
