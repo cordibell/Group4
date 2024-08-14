@@ -11,12 +11,12 @@ struct ContentView: View {
     var body: some View {
         NavigationStack{
             ZStack{
-                Image("background2")
+                Image("background")
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .ignoresSafeArea()
                 
-                Image("background")
+                Image("background2")
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .position(x: 200, y: 300)
