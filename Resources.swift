@@ -66,6 +66,7 @@ struct Resources: View {
                             Spacer()
                         } // opportunities vstack
                         .padding()
+                        .frame(width: 275.0, height: 250.0)
                         .background(RoundedRectangle(cornerRadius: 15)
                             .stroke(borderColour, lineWidth: 5)
                             .fill(infoColour)
@@ -110,9 +111,11 @@ struct Resources: View {
                             Spacer()
                         } // communities vstack
                         .padding()
+                        .frame(width: 275.0, height: 250.0)
                         .background(RoundedRectangle(cornerRadius: 15)
                             .stroke(borderColour, lineWidth: 5)
                             .fill(infoColour)
+                           
                             )
                         .padding()
                     } // hstack
@@ -122,8 +125,10 @@ struct Resources: View {
                 .background(RoundedRectangle(cornerRadius: 15)
                     .stroke(borderColour, lineWidth: 5)
                     .fill(mainBackground)
+                    .frame(width: 350.0, height: 700.0)
                     )
                 .padding()
+                .padding(.bottom, 50.0)
                     }
             .padding()
                 } // resources hstack
