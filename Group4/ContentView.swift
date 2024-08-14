@@ -35,20 +35,20 @@ struct ContentView: View {
                                     NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
                                         Image("quiz")
                                     }
-                                    NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
+                                    NavigationLink(destination: Resources()) {
                                         Image("resources")
                                 
-                                    }
-                                }
-                            }
+                                    } // navlink
+                                } // toolbar item group
+                            } // toolbar
 
                                     
-                                }
-                            }
-                    }
+                                } // vstack
+                            } // zstack
+                    } // nav stack
 
-                }
-            }
+                } // body
+            } // struct
 #Preview {
     ContentView()
 }

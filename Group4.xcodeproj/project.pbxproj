@@ -14,6 +14,7 @@
 		BD92139C2C6B5905004ABC54 /* Group4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92139B2C6B5905004ABC54 /* Group4Tests.swift */; };
 		BD9213A62C6B5905004ABC54 /* Group4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9213A52C6B5905004ABC54 /* Group4UITests.swift */; };
 		BD9213A82C6B5905004ABC54 /* Group4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9213A72C6B5905004ABC54 /* Group4UITestsLaunchTests.swift */; };
+		BD9213EF2C6CE10A004ABC54 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9213EE2C6CE10A004ABC54 /* Resources.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BD9213A12C6B5905004ABC54 /* Group4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Group4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9213A52C6B5905004ABC54 /* Group4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group4UITests.swift; sourceTree = "<group>"; };
 		BD9213A72C6B5905004ABC54 /* Group4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD9213EE2C6CE10A004ABC54 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		BD92137E2C6B5903004ABC54 = {
 			isa = PBXGroup;
 			children = (
+				BD9213EE2C6CE10A004ABC54 /* Resources.swift */,
 				BD9213892C6B5903004ABC54 /* Group4 */,
 				BD92139A2C6B5905004ABC54 /* Group4Tests */,
 				BD9213A42C6B5905004ABC54 /* Group4UITests */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD9213EF2C6CE10A004ABC54 /* Resources.swift in Sources */,
 				BD92138D2C6B5903004ABC54 /* ContentView.swift in Sources */,
 				BD92138B2C6B5903004ABC54 /* Group4App.swift in Sources */,
 			);
