@@ -22,7 +22,7 @@ struct ContentView: View {
                     .position(x: 200, y: 300)
                 
                 VStack {
-                    NavigationLink(destination: Question1())  {
+                    NavigationLink(destination: question1())  {
                         Image("start")
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)

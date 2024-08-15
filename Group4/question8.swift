@@ -1,5 +1,5 @@
 //
-//  Question1.swift
+//  question8.swift
 //  Group4
 //
 //  Created by Scholar on 15/08/2024.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Question1: View {
+struct question8: View {
     var mainBackground = Color(red: 236/255, green: 221/255, blue: 228/255)
         var mainOutline = Color(red: 211/255, green: 208/255, blue: 228/255)
         var infoColour = Color(red: 237/255, green: 228/255, blue: 242/255)
@@ -27,7 +27,7 @@ struct Question1: View {
                                 .background(infoColour)
                                 .cornerRadius(15)
                             VStack {
-                                Text("Question 1")
+                                Text("Question 8")
                                     .font(.largeTitle)
                                     .foregroundColor(Color.black)
                                     .padding()
@@ -37,7 +37,7 @@ struct Question1: View {
                                     .padding()
                                 
                                 
-                                Text("Who is Considered the First Computer Programmer?")
+                                Text("What percentage of the global tech workforce is made up of women (2023)?")
                                     .font(.title3)
                                     .foregroundColor(Color.black)
                                     .padding()
@@ -49,14 +49,10 @@ struct Question1: View {
                                 VStack {
                                     NavigationLink(destination: Resources1()) {
                                         HStack {
-                                            Text("Placeholder")
-                                                .font(.title2)
+                                            Text("a) 18%")
+                                                .font(.body)
                                                 .foregroundColor(.black)
                                             Spacer()
-                                            Image("hungergames")
-                                                .resizable(resizingMode: .stretch)
-                                                .aspectRatio(contentMode: .fit)
-                                                .cornerRadius(15)
                                         }
                                     }// hunger games hstack
                                     .padding()
@@ -64,16 +60,12 @@ struct Question1: View {
                                     .cornerRadius(15)
                                     .padding()
                                 } // hunger games navlink
-                                NavigationLink(destination: Resources1()) {
+                                NavigationLink(destination: question9()) {
                                     HStack {
-                                        Text("Placeholder")
-                                            .font(.title2)
+                                        Text("b) 25%")
+                                            .font(.body)
                                             .foregroundColor(.black)
                                         Spacer()
-                                        Image("insideout")
-                                            .resizable(resizingMode: .stretch)
-                                            .aspectRatio(contentMode: .fit)
-                                            .cornerRadius(15)
                                     } // hstack placeholder
                                     .padding()
                                     .background(Rectangle() .foregroundColor(.white))
@@ -82,14 +74,10 @@ struct Question1: View {
                                 } // navlink inside out
                                 NavigationLink(destination: Resources1()) {
                                     HStack {
-                                        Text("Ada Lovelace")
-                                            .font(.title2)
+                                        Text("c) 50%")
+                                            .font(.body)
                                             .foregroundColor(.black)
                                         Spacer()
-                                        Image("civilwar")
-                                            .resizable(resizingMode: .stretch)
-                                            .aspectRatio(contentMode: .fit)
-                                            .cornerRadius(15)
                                     } // civil war hstack
                                     .padding()
                                     .background(Rectangle() .foregroundColor(.white))
@@ -103,12 +91,12 @@ struct Question1: View {
                         .padding()
                     }
                     .padding()
-                }
-            }
-        }
+                } // vstack
+            } // zstack
+        } // navstack
     }
 }
 
 #Preview {
-    Question1()
+    question8()
 }

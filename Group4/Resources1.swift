@@ -6,10 +6,10 @@ import SwiftUI
 
 struct Resources1: View {
     var mainBackground = Color(red: 236/255, green: 221/255, blue: 228/255)
-    var mainOutline = Color(red: 211/255, green: 208/255, blue: 228/255)
-    var infoColour = Color(red: 237/255, green: 228/255, blue: 242/255)
-    var titleColour = Color(red: 219/255, green: 210/255, blue: 224/255)
-    var borderColour = Color(red: 6/255, green: 26/255, blue: 64/255)
+        var mainOutline = Color(red: 211/255, green: 208/255, blue: 228/255)
+        var infoColour = Color(red: 237/255, green: 228/255, blue: 242/255)
+        var titleColour = Color(red: 219/255, green: 210/255, blue: 224/255)
+        var borderColour = Color(red: 6/255, green: 26/255, blue: 64/255)
     var body: some View {
         ZStack {
             Color(mainOutline)
