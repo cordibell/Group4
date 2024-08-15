@@ -105,6 +105,8 @@ struct question9: View {
                     .padding()
                 } // vstack
             } // zstack
+            .navigationTitle("Question 9")
+            .navigationBarHidden(true)
         } // navstack
     }
 }

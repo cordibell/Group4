@@ -105,6 +105,8 @@ struct question2: View {
                     .padding()
                 }
             }
+            .navigationTitle("Question 2")
+            .navigationBarHidden(true)
         }
     }
 }

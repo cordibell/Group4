@@ -105,9 +105,11 @@ struct question1: View {
                     .padding()
                 }
             }
+            .navigationTitle("Question 1")
+            .navigationBarHidden(true)
         }
-    }
-}
+    } // body
+} // struct
 
 #Preview {
     question1()
