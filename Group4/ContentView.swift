@@ -22,7 +22,7 @@ struct ContentView: View {
                     .position(x: 200, y: 300)
                 
                 VStack {
-                    NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/)  {
+                    NavigationLink(destination: Question1())  {
                         Image("start")
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
@@ -34,7 +34,7 @@ struct ContentView: View {
                                     NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
                                         Image("quiz")
                                     }
-                                    NavigationLink(destination: Resources()) {
+                                    NavigationLink(destination: Resources1()) {
                                         Image("resources")
                                 
                                     } // navlink

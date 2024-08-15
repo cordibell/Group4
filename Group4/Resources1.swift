@@ -1,13 +1,10 @@
-//
 //  Resources.swift
 //  sideQuest
-//
 //  Created by Scholar on 14/08/2024.
-//
 
 import SwiftUI
 
-struct Resources: View {
+struct Resources1: View {
     var mainBackground = Color(red: 236/255, green: 221/255, blue: 228/255)
     var mainOutline = Color(red: 211/255, green: 208/255, blue: 228/255)
     var infoColour = Color(red: 237/255, green: 228/255, blue: 242/255)
@@ -34,7 +31,7 @@ struct Resources: View {
                             Text("Opportunities")
                                 .font(.title2)
                             ScrollView {
-                                Link("Kode with Klossy", destination: URL(string: "https://www.kodewithklossy.com")!)
+                                Link("Kode With Klossy", destination: URL(string: "https://www.kodewithklossy.com")!)
                                 Link("Girls Who Code", destination: URL(string: "https://girlswhocode.com/")!)
                                 Link("She Can Code",
                                      destination: URL(string: "https://shecancode.io/")!)
@@ -136,5 +133,5 @@ struct Resources: View {
     }
 
 #Preview {
-    Resources()
+    Resources1()
 }
